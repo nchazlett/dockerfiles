@@ -17,4 +17,4 @@ EXPOSE 9987/udp 10011 30033
 VOLUME /opt/ts3  
 
 # starts teamspeak
-CMD ["ts3server_minimal_runscript.sh"]
+CMD ["opt/ts3/ts3server_minimal_runscript.sh"]
