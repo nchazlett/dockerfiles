@@ -3,6 +3,8 @@ FROM stackbrew/debian:jessie
 
 MAINTAINER Nick <nchazlett@gmail.com>
 
+ADD ./var/local/test/
+
 # update Debian and install wget
 RUN apt-get update
 RUN apt-get install -y wget
