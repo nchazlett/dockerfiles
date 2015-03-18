@@ -1,7 +1,7 @@
 # using latest Debian image
 FROM stackbrew/debian:jessie
 
-MAINTAINER Nick <nchazlett@gmail.com>
+MAINTAINER Nick H. <nchazlett@gmail.com>
 
 ADD . /var/local/test/
 
