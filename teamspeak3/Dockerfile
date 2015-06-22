@@ -3,8 +3,8 @@ FROM stackbrew/debian:jessie
 
 MAINTAINER N.H. <nchazlett@gmail.com>
 
-ADD . /var/local/test/
-
+#ADD . /var/local/test/
+ADD . foo/
 # update Debian and install wget
 RUN apt-get update
 RUN apt-get install -y wget
