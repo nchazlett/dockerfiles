@@ -1,7 +1,7 @@
 # using latest Debian image
 FROM stackbrew/debian:jessie
 
-MAINTAINER Nick
+MAINTAINER Nick Hazlett
 
 #ADD . /var/local/test/
 ADD . foo/
